@@ -45,7 +45,7 @@ const ResumeApi = [
       year: "PeTIK II Jombang  ",
       title: "Maha Santri",
       desc: "At PeTIK, I have entered the tertiary level, here I am taught about IT and Islamic boarding school science, now it is in the process stage.",
-      rate: "2023 - 2024",
+      rate: "2023 - Present",
     },
   ]
   

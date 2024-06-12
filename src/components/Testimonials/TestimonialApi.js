@@ -7,7 +7,7 @@ const TestimonialApi = [
       // offcer: "Marketing Officer",
       // post: "CEO - Marketing",
       // date: "Thoda Department - Mar 4, 2018 - Aug 30, 2021",
-      desc: "Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris",
+      desc: "Here I took the Junior Web Developer certificate at UTAMA INFORMATICS VOCATIONAL SCHOOL, DEPOK in 2023",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const TestimonialApi = [
       // offcer: "Marketing Officer",
       // post: "CEO - Marketing",
       // date: "Thoda Department - Mar 4, 2018 - Aug 30, 2021",
-      desc: "Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris",
+      desc: "I got this Minecraft certificate by playing the game on the Minecraft website, where we learn programming language algorithms",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const TestimonialApi = [
       // offcer: "Marketing Officer",
       // post: "CEO - Marketing",
       // date: "Thoda Department - Mar 4, 2018 - Aug 30, 2021",
-      desc: "Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris",
+      desc: "I got this dcoding certificate by attending an online seminar where we explained about Dcoding Developer Coaching",
     },
   ]
   
