@@ -1,0 +1,233 @@
+.Testimonial h2 {
+    margin: 15px 0 0 0;
+}
+
+.Testimonial .left {
+    width: 35%;
+    padding: 35px;
+    margin: 20px;
+}
+
+.Testimonial .right {
+    width: 65%;
+    padding: 0 0 0 50px;
+    margin: 0 20px 0 0;
+}
+
+.Testimonial .quote i {
+    font-size: 150px;
+    opacity: 0.1;
+}
+
+.Testimonial .content {
+    padding: 50px;
+}
+
+.Testimonial .content h1 {
+    font-weight: 500;
+    font-size: 2em; /* Adjusted font size for better readability */
+}
+
+.Testimonial .content h3 {
+    font-size: 1.2em; /* Adjusted font size for better readability */
+    font-weight: 400;
+    margin-bottom: 20px; /* Reduced margin for better spacing */
+}
+
+.Testimonial .slide_button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.Testimonial .slide_button .prev_btn {
+    margin-right: 467px;
+}
+
+.Testimonial .details span {
+    color: #ff014f;
+}
+
+.Testimonial .slide {
+    max-width: 60%;
+    margin: auto;
+    height: 600px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+article .img img {
+    height: 40vh;
+    width: 30vh;
+    margin-top: 1.5vh;
+}
+
+article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+article.lastSlide {
+    transform: translateX(-100%);
+}
+
+article.nextSlide {
+    transform: translateX(100%);
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .Testimonial .left, .Testimonial .right {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .Testimonial .slide {
+        height: 70vh;
+        max-width: 80%;
+    }
+
+    .Testimonial .slide_button {
+        top: auto;
+        bottom: 20px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .Testimonial .slide_button .prev_btn {
+        margin-right: 30px;
+    }
+
+    .Testimonial .content h1 {
+        font-size: 1.8em; /* Adjusted font size for better readability */
+    }
+
+    .Testimonial .content h3 {
+        font-size: 1em; /* Adjusted font size for better readability */
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .Testimonial .left, .Testimonial .right {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .Testimonial .slide {
+        height: 60vh;
+        max-width: 90%;
+    }
+
+    .Testimonial .left img {
+        width: 150px;
+        margin-right: 15px;
+    }
+
+    .Testimonial .content {
+        padding: 20px;
+    }
+
+    .Testimonial .slide_button {
+        bottom: 15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .Testimonial .quote i {
+        font-size: 100px;
+    }
+
+    .Testimonial .content h1 {
+        font-size: 1.5em; /* Adjusted font size for better readability */
+    }
+
+    .Testimonial .content h3 {
+        font-size: 0.9em; /* Adjusted font size for better readability */
+    }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+    .Testimonial .left, .Testimonial .right {
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .Testimonial .slide {
+        height: 50vh;
+        max-width: 95%;
+    }
+
+    .Testimonial .left img {
+        width: 120px;
+        margin-right: 10px;
+    }
+
+    .Testimonial .content {
+        padding: 15px;
+    }
+
+    .Testimonial .slide_button {
+        bottom: 10px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .Testimonial .quote i {
+        font-size: 80px;
+    }
+
+    .Testimonial .content h1 {
+        font-size: 1.3em; /* Adjusted font size for better readability */
+    }
+
+    .Testimonial .content h3 {
+        font-size: 0.8em; /* Adjusted font size for better readability */
+    }
+}
+
+/* Extra Small Mobile View */
+@media (max-width: 320px) {
+    .Testimonial .left img {
+        width: 100px;
+        
+        margin-right: 5px;
+    }
+
+    .Testimonial .content {
+        padding: 10px;
+    }
+
+    .Testimonial .quote i {
+        font-size: 60px;
+    }
+
+    .Testimonial .slide_button {
+        bottom: 5px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .Testimonial .content h1 {
+        font-size: 1.1em; /* Adjusted font size for better readability */
+    }
+
+    .Testimonial .content h3 {
+        font-size: 0.7em; /* Adjusted font size for better readability */
+    }
+}

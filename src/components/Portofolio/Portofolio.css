@@ -1,0 +1,218 @@
+.portofolio {
+    position: relative;
+}
+
+.portofolio .box {
+    border-radius: 10px;
+    position: relative;
+}
+
+.portofolio .box:hover {
+    background: none;
+    transform: translateY(0);
+}
+
+.portofolio .img {
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.portofolio img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.portofolio .box .img:hover img {
+    transform: scale(1.2);
+}
+
+.portofolio .category {
+    margin: 20px 0 30px 0;
+    text-transform: uppercase; /* Changed from text-decoration to text-transform */
+}
+
+.portofolio .category span {
+    color: #ff014f;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.portofolio .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(-45deg);
+    color: #ff014f;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portofolio .title:hover .arrow {
+    opacity: 1;
+}
+
+.portofolio h2 {
+    font-size: 18px;
+    transition: 0.5s;
+    padding-bottom: 30px;
+}
+
+.portofolio .box:hover h2 {
+    color: #ff014f;
+}
+
+.portofolio .box:hover {
+    color: black;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: flex;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Added semi-transparent background */
+}
+
+.modal-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    padding: 14px 28px;
+    min-width: 60%;
+    max-width: 85%;
+    z-index: 9999;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff; /* Fixed shadow directions */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.modal-text {
+    padding: 0 20px; /* Reduced padding for better fit */
+}
+
+.modal-text h1 {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+.modal-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.modal-text button {
+    margin-right: 20px;
+    color: #ff014f;
+}
+
+.modal-text button i {
+    margin-left: 10px;
+}
+
+.modal-text button.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 20px;
+}
+
+.modal-text button.close-modal i {
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .portofolio .img {
+        height: 250px;
+    }
+    .modal-content {
+        top: 10%;
+        left: 5%;
+        min-width: 70%;
+        max-width: 90%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .portofolio .img {
+        height: 200px;
+    }
+    .modal,
+    .overlay {
+        overflow-y: auto;
+    }
+    .modal-content {
+        top: 5%;
+        left: 5%;
+        min-width: 80%;
+        max-width: 95%;
+        padding: 20px;
+    }
+    .modal-text {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .portofolio .img {
+        height: 150px;
+    }
+    .portofolio h2 {
+        font-size: 16px;
+    }
+    .modal-content {
+        top: 2%;
+        left: 2%;
+        min-width: 90%;
+        max-width: 95%;
+        padding: 15px;
+    }
+    .modal-text {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .portofolio .img {
+        height: 100px;
+    }
+    .portofolio h2 {
+        font-size: 14px;
+    }
+    .modal-content {
+        top: 1%;
+        left: 1%;
+        min-width: 95%;
+        max-width: 98%;
+        padding: 10px;
+    }
+    .modal-text {
+        padding: 0 5px;
+    }
+}
